@@ -9,10 +9,9 @@
      transition: all .5s ease-in;
 }
 body{
-     /* background-color: black; */
+     background-color: black;
 }
 .bg{
 width: 100%;
-/* height: 70vw; */
-filter: grayscale(8);
+/* height: 100vw; */
 }
