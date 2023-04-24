@@ -9,9 +9,58 @@
      transition: all .5s ease-in;
 }
 body{
-     background-color: black;
+     background-color:black;
 }
 .bg{
 width: 100%;
-/* height: 100vw; */
+height: 100vh;
+object-fit: cover;
+object-position:top;
+opacity: .5;
+position: relative;
+}
+.header{
+     position: absolute;
+     top: 0;
+     padding: 1.5rem 2rem;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 100%;
+}
+.head-tittle{
+color: white;
+font-family: 'Lobster', cursive;
+font-size: 3rem;
+}
+.links{
+display: flex;
+gap: 1.5rem;     
+}
+.links a{
+color: white;     
+font-family: 'Roboto Flex', sans-serif;
+font-size: 1.2rem;
+}
+.links a:hover{
+     color:tan;
+}
+.home-section{
+     padding: 0 1.5rem;
+     position: absolute;
+     top: 30%;
+}
+.home-section-title{
+font-family: 'Roboto Flex', sans-serif;
+color: white;     
+     font-size: 8rem;
+}
+.home-section-p{
+     color: wheat;
+}
+.about-section{
+     background: white;
+}
+.about-img{
+     width: 100%;
 }
