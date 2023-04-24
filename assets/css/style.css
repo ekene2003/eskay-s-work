@@ -6,7 +6,7 @@
      box-sizing: border-box;
      text-decoration: none !important;
      scroll-behavior: smooth;
-     transition: all .5s ease-in;
+     transition: all .2s ease-in-out;
 }
 body{
      background-color:black;
@@ -22,7 +22,7 @@ position: relative;
 .header{
      position: absolute;
      top: 0;
-     padding: 1.5rem 2rem;
+     padding: 1rem 2rem;
      display: flex;
      align-items: center;
      justify-content: space-between;
@@ -46,9 +46,9 @@ font-size: 1.2rem;
      color:tan;
 }
 .home-section{
-     padding: 0 1.5rem;
+     padding:0 1.5rem;
      position: absolute;
-     top: 30%;
+     top: 24%;
 }
 .home-section-title{
 font-family: 'Roboto Flex', sans-serif;
@@ -56,11 +56,34 @@ color: white;
      font-size: 8rem;
 }
 .home-section-p{
-     color: wheat;
+     color: burlywood;
 }
 .about-section{
-     background: white;
+     background:#fbf8f5;
 }
 .about-img{
      width: 100%;
+     height: 100vh;
+     object-fit: cover;
+     object-position: top;
+}
+.right{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+.about-title{
+font-family: 'Roboto Flex', sans-serif;
+font-weight: 900;
+font-size: 5rem;
+}
+.about-p{
+     font-family: 'Play', sans-serif;
+       color: gray;
+}
+.slide-img{
+width: 50%;
+height: 100vh;
+object-fit: cover;
+object-position: top;
 }
