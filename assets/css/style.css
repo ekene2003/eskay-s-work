@@ -57,12 +57,14 @@ color: white;
 }
 .home-section-p{
      color: burlywood;
+     font-family: 'Play', sans-serif;
+
 }
 .about-section{
      background:#fbf8f5;
 }
 .about-img{
-     width: 100%;
+     width: 95%;
      height: 100vh;
      object-fit: cover;
      object-position: top;
@@ -87,19 +89,35 @@ height: 100vh;
 object-fit: cover;
 object-position: top;
 }
+.stats-section{
+     background:#fbf8f5;
+}
 .stats-title{
+font-family: 'Roboto Flex', sans-serif;
 
 }
 .stats{
      display: flex;
-     background: white;
-     padding: 1rem;
+     background: rgb(142, 121, 94);
+     padding: 2rem;
+     color: white;
 }
 .stats-p{
 display: flex;
 flex-direction: column;
+     font-family: 'Play', sans-serif;
+align-items: center;
+gap: 1rem;
+margin-right: 5rem;
+font-size: 1.3rem;
 }
 .stats-p2{
 display: flex;
 flex-direction: column;
+align-items: center;
+justify-content: center;
+     font-family: 'Play', sans-serif;
+gap: 1rem;
+font-size: 1.3rem;
+        
 }
