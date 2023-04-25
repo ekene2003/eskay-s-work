@@ -90,11 +90,11 @@ object-fit: cover;
 object-position: top;
 }
 .stats-section{
-     background:#fbf8f5;
+     background:#e6c4a2;
 }
 .stats-title{
 font-family: 'Roboto Flex', sans-serif;
-
+font-size: 5rem;
 }
 .stats{
      display: flex;
@@ -109,15 +109,20 @@ flex-direction: column;
 align-items: center;
 gap: 1rem;
 margin-right: 5rem;
-font-size: 1.3rem;
+font-size: 1.2rem;
 }
 .stats-p2{
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-     font-family: 'Play', sans-serif;
+font-family: 'Play', sans-serif;
 gap: 1rem;
-font-size: 1.3rem;
-        
+font-size: 1.2rem;        
+}
+.stats-img{
+     width: 100%;
+     height: 100vh;
+     object-fit: cover;
+     object-position: top;
 }
