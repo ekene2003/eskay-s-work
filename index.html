@@ -209,20 +209,25 @@
                                    alt="" class="contact-img mt-4">
                          </div>
                          <div class="col-md-6">
-                              <form action="mailto:David.salako@icloud.com" method="post" class="contact-form">
+                              <form action="https://formsubmit.co/f5f52bcb8b47c64c5f45ab2f41a0168a " method="POST"
+                                   class="contact-form">
+                                   <!-- honey pot -->
+                                   <input type="text" name="_honey" style="display: none;">
+                                   <!-- disable captcha -->
+                                   <input type="hidden" name="_captcha" value="false">
                                    <div class="form-group">
                                         <label for="name">Name</label>
-                                        <input type="text" class="form-control" id="name" name="name"
-                                             placeholder="Name">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Name"
+                                             required>
                                    </div>
                                    <div class="form-group">
                                         <label for="email">Email</label>
-                                        <input type="email" class="form-control" id="email" name="email"
-                                             placeholder="****@gmail.com" </div>
+                                        <input type="email" class="form-control" id="email" name="Email"
+                                             placeholder="****@gmail.com" required </div>
                                    </div>
                                    <div class="form-group mt-5 text-area">
                                         <label for="message">Message</label>
-                                        <textarea name="" id="message" cols="50" rows="5"></textarea>
+                                        <textarea name="message" id="message" cols="50" rows="5"></textarea>
                                    </div>
                                    <button type="submit" class="submit mt-5">submit</button>
                               </form>
